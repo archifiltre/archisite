@@ -1,0 +1,16 @@
+- title: "Besoin d'y voir clair dans une arborescence ?"
+  text: "
+Faire du tri dans un gros dossier est un vrai casse-tête. Comment savoir tout ce qui se cache dans \"divers\" ? Comment identifier rapidement les fichiers qui prennent le plus de place ?
+
+
+Avec __archifiltre__, prenez de la hauteur. Appréhendez une arborescence en entier, d'un seul coup d'œil.
+"
+  image: /assets/images/folders.png
+
+
+- title: "Le tri, mais zen."
+  text: "
+La pratique du __yamadori [ヤマドリ]__ consiste à récolter un arbre nain dans la nature, à tailler ses branches et à l'entretenir pour en faire un bonsai. __archifiltre__ vous permet la même chose avec une arborescence de fichiers. La prélever, l'examiner, et y faire du tri.
+"
+  image: /assets/images/bonsai.png
+

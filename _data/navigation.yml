@@ -1,0 +1,11 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /blog.html
+- name: Changelog
+  link: /changelog.html
+- name: Download
+  link: /download.html
+- name: Rien
+  link: /rien.html
+

@@ -3,10 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title: Home
-layout: index
+layout: default
 ---
-
-# archifiltre
-
-## Vos fichiers et dossiers, comme vous ne les avez jamais vus.
 

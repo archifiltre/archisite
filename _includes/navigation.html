@@ -1,5 +1,12 @@
-<nav>
-  <a href="/">Home</a>
-  <a href="/about.html">About</a>
-  <a href="/blog.html">About</a>
-</nav>
+<div class="grid-x" style="height: 2em; background-color: antiquewhite;">
+  {% for item in site.data.navigation %}
+    <div class="cell shrink">
+      <a href="{{ item.link }}">
+        {{ item.name }}
+      </a>
+    </div>
+  {% endfor %}
+</div>  
+
+
+
