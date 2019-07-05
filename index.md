@@ -18,3 +18,12 @@ Faire du tri dans un gros dossier est un vrai casse-tête. Comment savoir tout c
 
 Avec archifiltre, prenez de la hauteur. Appréhendez une arborescence en entier, d'un seul coup d'œil.
 
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
