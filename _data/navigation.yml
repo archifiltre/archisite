@@ -2,8 +2,8 @@
   link: /
 - name: Blog
   link: /blog.html
-- name: Changelog
-  link: /changelog.html
+- name: Changelogs
+  link: /changelogs.html
 - name: Download
   link: /download.html
 - name: Rien

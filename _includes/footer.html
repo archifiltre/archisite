@@ -1,8 +1,13 @@
-<div class="grid-x align-center" style="background-color: rgb(66, 66, 66);padding: 1em;">
+<div
+  class="grid-x align-center"
+  style="
+    /*padding: 1em;*/
+  "
+>
   <div class="cell shrink">
     <div class="grid-x">
       <div class="cell small-12">archifiltre</div>
-      {% for item in site.data.social %}
+      {% for item in site.data.footer %}
         <div class="cell small-12 medium-4">
           <a href="{{ item.link }}">{{ item.name }}</a>
         </div>
