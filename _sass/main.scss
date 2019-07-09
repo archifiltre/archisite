@@ -1,8 +1,33 @@
-.cell {
-  // background-color: green;
-  padding: 0em;
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/Quicksand/Quicksand-Regular.ttf') format('opentype');
+}
+
+._padded_ {
+  padding: 0.5em;
 }
 
 *, p, h1, h2 {
   font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background-color: rgb(232, 235, 231);
+}
+
+h1 {
+  letter-spacing: 0.06em;
+  font-size: 3.2em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 0.8em;
+  line-height: 24px;
 }

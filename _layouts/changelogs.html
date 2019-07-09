@@ -2,18 +2,18 @@
 layout: default
 ---
 
-<div class="grid-x">
-  <div class="cell small-12" style="text-align: center;">
+<div class="grid-x _padded_">
+  <div class="cell small-12 _padded_" style="text-align: center;">
 
     <h1>Changelogs</h1>
     
   </div>
-  <div class="cell small-12">
+  <div class="cell small-12 _padded_">
     
-    <div class="grid-x">
+    <div class="grid-x _padded_">
       {% assign reverse_changelogs = site.changelogs | reverse %}
       {% for changelog in reverse_changelogs %}
-        <div class="cell small-12 medium-6">
+        <div class="cell small-12 medium-6 _padded_">
           {{ changelog.date | date: "%d/%m/%Y" }}
           <h2><a href="{{ changelog.url }}">{{ changelog.title }}</a></h2>
           <p>{{ changelog.excerpt }}</p>

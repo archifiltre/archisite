@@ -1,4 +1,4 @@
-- name: Home
+- name: Archifiltre
   link: /
 - name: Blog
   link: /blog.html
@@ -6,6 +6,4 @@
   link: /changelogs.html
 - name: Download
   link: /download.html
-- name: Rien
-  link: /rien.html
 

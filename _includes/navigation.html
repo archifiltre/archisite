@@ -1,9 +1,22 @@
-<div class="grid-x" style="height: 2em; background-color: antiquewhite;">
-  {% for item in site.data.navigation %}
-    <div class="cell shrink">
-      <a href="{{ item.link }}">
-        {{ item.name }}
-      </a>
-    </div>
-  {% endfor %}
+<div
+  style="
+    padding: 1em;
+  "
+>
+  <div 
+    class="grid-x _padded_"
+    style="
+      background-color: white;
+      border-radius: 1em;
+      padding: 0.5em 1em;
+    "
+  >
+    {% for item in site.data.navigation %}
+      <div class="cell shrink _padded_">
+        <a href="{{ item.link }}">
+          {{ item.name }}
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 </div>
