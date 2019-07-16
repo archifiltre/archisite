@@ -5,12 +5,13 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
-    {% include navigation.html %}
+  <body style="background-color: rgb(66, 66, 66)">
+    <div style="background-color: rgb(232, 235, 231);">
+      {% include navigation.html %}
 
-    {{ content }}
+      {{ content }}
 
-    {% include footer.html %}
-
+      {% include footer.html %}      
+    </div>
   </body>
 </html>
