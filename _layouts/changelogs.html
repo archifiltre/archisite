@@ -13,10 +13,31 @@ layout: default
     <div class="grid-x _padded_">
       {% assign reverse_changelogs = site.changelogs | reverse %}
       {% for changelog in reverse_changelogs %}
-        <div class="cell small-12 medium-6 _padded_">
-          {{ changelog.date | date: "%d/%m/%Y" }}
-          <h2><a href="{{ changelog.url }}">{{ changelog.title }}</a></h2>
-          <p>{{ changelog.excerpt }}</p>
+        <div class="cell small-12 medium-12 _padded_">
+          <div
+            style="
+              background-color: white;
+              height: 100%;
+              padding: 1em;
+              border-radius: 1em;
+            "
+          >
+            <h2>
+              {{ changelog.date | date: "%d/%m/%Y" }} -
+              <a href="{{ changelog.url }}">{{ changelog.title }}</a>
+            </h2>
+            <div
+              style="
+                background-image: linear-gradient(#eaf0f1, #dde5e6);
+                padding: 1em;
+                border-radius: 1em;
+                opacity: 0.75;
+              "
+            >
+              <p>{{ changelog.excerpt }}</p>
+              <a href="{{ changelog.url }}">lire la suite</a>
+            </div>
+          </div>
         </div>
       {% endfor %}
     </div>

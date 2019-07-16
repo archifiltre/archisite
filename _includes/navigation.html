@@ -13,7 +13,15 @@
   >
     {% for item in site.data.navigation %}
       <div class="cell shrink _padded_">
-        <a href="{{ item.link }}">
+        <a
+          href="{{ item.link }}"
+          style="
+            color: black;
+            {% if forloop.index0 == 0 %}
+              font-weight: 600;
+            {% endif %}
+          "
+        >
           {{ item.name }}
         </a>
       </div>
