@@ -1,0 +1,12 @@
+- name: Windows 64 bit
+  link: /archifiltre.exe
+  img: /assets/images/win.png
+- name: Windows 32 bit
+  link: /archifiltre.exe
+  img: /assets/images/win.png
+- name: MacOs
+  link: /archifiltre.dmg
+  img: /assets/images/mac.png
+- name: Linux
+  link: /archifiltre.tar.gz
+  img: /assets/images/linux.png
