@@ -1,16 +1,16 @@
 ---
 platforms:
   - name: Windows 64 bit
-    link: /assets/bin/latest/win64/archifiltre.exe
+    link: /archifiltre.exe
     img: /assets/images/win.png
   - name: Windows 32 bit
-    link: /assets/bin/latest/win32/archifiltre.exe
+    link: /archifiltre.exe
     img: /assets/images/win.png
   - name: MacOs
-    link: /assets/bin/latest/mac/archifiltre.dmg
+    link: /archifiltre.dmg
     img: /assets/images/mac.png
   - name: Linux
-    link: /assets/bin/latest/linux/archifiltre.tar.gz
+    link: /archifiltre.tar.gz
     img: /assets/images/linux.png
 layout: default
 ---
@@ -24,7 +24,7 @@ layout: default
 
     <div class="grid-x align-center">
       {% for platform in layout.platforms %}
-        <div class="cell small-7 _padded_">
+        <div class="cell small-12 medium-7 _padded_">
   
           <div class="grid-x">
             <div class="cell small-2 _padded_">
@@ -50,13 +50,17 @@ layout: default
         "
       ></div>
 
-      <div class="cell small-7 _padded_">
+      <div class="cell small-12 medium-7 _padded_">
   
         <div class="grid-x">
           <div class="cell small-2 _padded_">
-            <img src="/assets/images/chrome.png" alt="">
+            <div class="grid-y align-center" style="height: 100%;">
+              <div class="cell shrink">
+                <img src="/assets/images/chrome.png" alt="">
+              </div>
+            </div>
           </div>
-          <div class="cell small-1 _padded_">
+          <div class="cell shrink _padded_">
             <div class="grid-y align-center" style="height: 100%;">
               <div class="cell shrink">
                 ou
@@ -64,9 +68,13 @@ layout: default
             </div>
           </div>
           <div class="cell small-2 _padded_">
-            <img src="/assets/images/firefox.png" alt="">
+            <div class="grid-y align-center" style="height: 100%;">
+              <div class="cell shrink">
+                <img src="/assets/images/firefox.png" alt="">
+              </div>
+            </div>
           </div>
-          <div class="cell small-7 _padded_">
+          <div class="cell auto _padded_">
             <div class="grid-y align-center" style="height: 100%;">
               <div class="cell shrink">
                 <a href="https://archifiltre.github.io/v8/">Navigateur (legacy)</a>
