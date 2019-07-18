@@ -28,6 +28,20 @@ p {
   line-height: 1.7em;
 }
 
+.__cta__ {
+  background-color: #ff1a00;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 2em;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: background-color 1s;
+}
 
+.__cta__:hover {
+  background-color: #0058ff;
+}
 
 

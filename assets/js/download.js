@@ -16,3 +16,17 @@ function detectPlatform() {
     }
   }
 }
+
+function swapDownloadLink() {
+  var plat = detectPlatform()
+
+  if (plat === 'win') {
+    plat = 'win64'
+  }
+
+  var elem = $('#'+plat).detach()
+
+  if (elem) {
+    elem.prependTo('#platforms_list')
+  }
+}
